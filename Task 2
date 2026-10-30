@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Laptops</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6fb;
+      margin: 0;
+      padding: 20px;
+    }
+    .header {
+      margin-bottom: 20px;
+    }
+    .products {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background-color: white;
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+    .info {
+      padding: 15px;
+    }
+    .price {
+      color: #5b4bff;
+      font-weight: bold;
+    }
+    button {
+      background-color: #5b4bff;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Our Laptops</h1>
+    <p>Choose your next laptop from our collection.</p>
+    <a href="#">Back to home</a>
+  </div>
+
+  <div class="products">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400" alt="HP Pavilion">
+      <div class="info">
+        <h3>HP Pavilion</h3>
+        <p>A great laptop for studying and browsing.</p>
+        <p class="price">$550</p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400" alt="Dell Inspiron">
+      <div class="info">
+        <h3>Dell Inspiron</h3>
+        <p>A practical choice for work and online classes.</p>
+        <p class="price">$650</p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400" alt="Lenovo IdeaPad">
+      <div class="info">
+        <h3>Lenovo IdeaPad</h3>
+        <p>A simple and reliable laptop for everyday use.</p>
+        <p class="price">$600</p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
