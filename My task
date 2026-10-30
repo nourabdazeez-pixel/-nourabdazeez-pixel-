@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Orbit</title>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        h1 {
+            color: purple;
+        }
+
+        .box {
+            border: 1px solid gray;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        .author {
+            color: lightgreen;
+        }
+
+        .price {
+            color: purple;
+            font-size: 25px;
+        }
+
+        .btn {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to Orbit</h1>
+    <p>Your new home for all things space.</p>
+
+    <div class="box">
+
+        <h2>Why Your Brain Loves Lo-Fi Beats</h2>
+
+        <p>2 minutes - 3 weeks ago</p>
+        <p class="author">Orbit Studio</p>
+
+        <p>Listen to music while studying,
+           coding, or relaxing.</p>
+
+        <a href="#" class="btn">Listen Now</a>
+
+        <hr>
+
+        <p>LIVE CONCERT</p>
+        <h2>Galaxy Tour 2026</h2>
+
+        <p>Cosmic Arena - Friday, 8:00 PM</p>
+        <p class="price">$45</p>
+        <p class="author">Orbit Official</p>
+
+        <p>Get ready for an amazing music show!</p>
+
+        <a href="#">Get tickets</a>
+
+    </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buttons</title>
+
+    <style>
+        body {
+            background-color: black;
+            text-align: center;
+            padding: 50px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .play {
+            background-color: green;
+        }
+
+        .follow {
+            background-color: white;
+        }
+
+        .buy {
+            background-color: purple;
+            color: white;
+        }
+
+        .like {
+            background-color: pink;
+        }
+
+        .download {
+            background-color: lightgray;
+        }
+
+        button:hover {
+            background-color: orange;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button class="play">Play Now</button>
+    <button class="follow">Follow</button>
+    <button class="buy">Buy Ticket</button>
+    <button class="like">Like</button>
+    <button class="download">Download</button>
+
+</body>
+</html>
+
